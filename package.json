@@ -17,7 +17,7 @@
   "author": "Alireza Tabatabaeian",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alireza-Tabatabaeian/observable-socket"
+    "url": "git+https://github.com/Alireza-Tabatabaeian/observable-socket.git"
   },
   "main": "./dist/esm/index.mjs",
   "type": "module",
@@ -57,5 +57,9 @@
     "dist",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/Alireza-Tabatabaeian/observable-socket/issues"
+  },
+  "homepage": "https://github.com/Alireza-Tabatabaeian/observable-socket#readme"
 }
