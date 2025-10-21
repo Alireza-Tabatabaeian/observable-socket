@@ -2,6 +2,23 @@
   "name": "@djanext/observable-socket",
   "version": "1.0.0",
   "description": "Tiny reactive WebSocket client and context provider that let you **call WebSocket routes like HTTP endpoints** — designed for full compatibility with the companion Django/Channels backend [`django-channels-router`](https://pypi.org/project/django-channels-router/).",
+  "keywords": [
+    "react",
+    "socket",
+    "http-style",
+    "context",
+    "observable-socket",
+    "awaitable-socket",
+    "socket-router",
+    "django",
+    "nextjs"
+  ],
+  "license": "MIT",
+  "author": "Alireza Tabatabaeian",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alireza-Tabatabaeian/observable-socket"
+  },
   "main": "./dist/esm/index.mjs",
   "type": "module",
   "scripts": {
