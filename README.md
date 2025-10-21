@@ -1,6 +1,6 @@
 # Observable Socket (Frontend, NPM)
 
-Tiny reactive WebSocket client and context provider that let you **call WebSocket routes like HTTP endpoints** — designed for full compatibility with the companion Django/Channels backend [`observable-socket-router`](https://pypi.org/project/observable-socket-router/).
+Tiny reactive WebSocket client and context provider that let you **call WebSocket routes like HTTP endpoints** — designed for full compatibility with the companion Django/Channels backend [`django-channels-router`](https://pypi.org/project/django-channels-router/).
 
 - ⚡ Call named routes with `sendAndWait()` — like `fetch()`, but over WebSocket.
 - 🔁 Built-in heartbeat, reconnect, and timeout management.
