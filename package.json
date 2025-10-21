@@ -1,0 +1,36 @@
+{
+  "name": "@djanext/observable-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/cjs/index.cjs",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "ts-build-wizard": "^1.0.6",
+    "tsdown": "^0.15.0",
+    "typescript": "^5.5.3"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "private": true,
+  "module": "./dist/esm/index.mjs",
+  "types": "./dist/esm/index.d.mts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.cjs",
+      "types": "./dist/esm/index.d.mts",
+      "default": "./dist/cjs/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist", "README.md", "LICENSE"
+  ]
+}
