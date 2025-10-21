@@ -1,10 +1,11 @@
 {
   "name": "@djanext/observable-socket",
   "version": "1.0.0",
-  "description": "",
-  "main": "./dist/cjs/index.cjs",
+  "description": "Tiny reactive WebSocket client and context provider that let you **call WebSocket routes like HTTP endpoints** — designed for full compatibility with the companion Django/Channels backend [`django-channels-router`](https://pypi.org/project/django-channels-router/).",
+  "main": "./dist/esm/index.mjs",
+  "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "ts-build-wizard"
   },
   "devDependencies": {
     "@types/react": "^19.2.2",
@@ -18,7 +19,6 @@
     "react": ">=18",
     "react-dom": ">=18"
   },
-  "private": true,
   "module": "./dist/esm/index.mjs",
   "types": "./dist/esm/index.d.mts",
   "exports": {
@@ -26,11 +26,19 @@
       "import": "./dist/esm/index.mjs",
       "require": "./dist/cjs/index.cjs",
       "types": "./dist/esm/index.d.mts",
-      "default": "./dist/cjs/index.cjs"
+      "default": "./dist/esm/index.mjs"
+    },
+    "./vanilla": {
+      "import": "./dist/esm/vanilla.mjs",
+      "require": "./dist/cjs/vanilla.cjs",
+      "types": "./dist/esm/vanilla.d.mts",
+      "default": "./dist/esm/vanilla.mjs"
     },
     "./package.json": "./package.json"
   },
   "files": [
-    "dist", "README.md", "LICENSE"
+    "dist",
+    "README.md",
+    "LICENSE"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "entry": {
+    "index": "src/index.ts",
+    "vanilla": "src/core/index.ts"
+  },
+  "mergeInOne": false,
+  "outDir": "dist",
+  "formats": [
+    "esm",
+    "cjs"
+  ],
+  "platform": "browser",
+  "dts": true,
+  "sourcemap": true,
+  "minify": "no",
+  "formatDir": true,
+  "clean": true,
+  "autoExport": true
+}
